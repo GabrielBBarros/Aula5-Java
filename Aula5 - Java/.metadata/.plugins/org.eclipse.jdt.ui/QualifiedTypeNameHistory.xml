@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="Controller.ControladorLivro"/>
+    <fullyQualifiedTypeName name="Model.Livro"/>
+    <fullyQualifiedTypeName name="View.Menu"/>
+    <fullyQualifiedTypeName name="Controller.Controlador"/>
+    <fullyQualifiedTypeName name="Model.Filme"/>
+</qualifiedTypeNameHistroy>

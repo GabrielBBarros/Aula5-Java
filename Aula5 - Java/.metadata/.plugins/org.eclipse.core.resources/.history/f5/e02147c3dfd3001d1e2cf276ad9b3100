@@ -1,0 +1,21 @@
+package Controller;
+
+import java.util.ArrayList;
+import Model.Livro;
+
+public class ControladorLivro {
+	 private ArrayList<Livro> livros = new ArrayList<>();
+
+	    public void adicionarLivro(Livro livro) {
+	        livros.add(livro);
+	    }
+	    
+	    public void listarLivros() {
+	    	for (Livro livro : livros) {
+	    	    System.out.println("Nome: " + livro.getNome());
+	    	    System.out.println("Quantidade: " + livro.getQuantidade());
+	    	    System.out.println("Descrição: " + livro.getDescricao()+"\n");
+	    	}
+	    }
+	
+}

@@ -1,0 +1,19 @@
+package Model;
+
+public class Filme {
+	public String nome;
+	public int quantidade;
+	public String genero;
+	
+	public Filme() {
+	}
+	
+	public Filme(String nome, int quantidade, String genero) {
+		super();
+		this.nome = nome;
+		this.quantidade = quantidade;
+		this.genero = genero;
+	}
+	
+	
+}

@@ -1,0 +1,26 @@
+package Controller;
+import Model.Livro;
+import View.Menu;
+
+import java.util.ArrayList;
+import Model.Livro;
+
+public class ControladorLivro {
+	 private ArrayList<Livro> livros = new ArrayList<>();
+
+	 public boolean adicionarLivro(String nome, String descricao, int quantidade) {
+		    try {
+		        Livro livro = new Livro(nome, descricao, quantidade);
+		        livros.add(livro);
+		        return true;
+		    } catch (Exception e) {
+		        return false;
+		    }
+		}
+	    
+	 public String listarLivros() {
+		    // código para obter a lista de livros do banco de dados
+		    return Livro;
+		}
+	
+}

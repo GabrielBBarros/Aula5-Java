@@ -1,0 +1,32 @@
+package Controller;
+import Model.Filme;
+import View.Menu;
+
+import java.util.ArrayList;
+
+
+public class Controlador {
+	 private ArrayList<Filme> filmes = new ArrayList<>();
+
+	 public boolean adicionarLivro(String nome, String descricao, int quantidade) {
+		    try {
+		        Filme filme = new Filme(nome, quantidade, genero);
+		        filmes.add(filme);
+		        return true;
+		    } catch (Exception e) {
+		        return false;
+		    }
+		}
+	    
+	 public String listarLivros() {
+		    StringBuilder sb = new StringBuilder();
+		    for (Livro livro : livros) {
+		        sb.append("Nome: " + livro.getNome() + "\n");
+		        sb.append("Quantidade: " + livro.getQuantidade() + "\n");
+		        sb.append("Genero: " + livro.getDescricao() + "\n\n");
+		    }
+		    return sb.toString();
+		}
+
+	
+}

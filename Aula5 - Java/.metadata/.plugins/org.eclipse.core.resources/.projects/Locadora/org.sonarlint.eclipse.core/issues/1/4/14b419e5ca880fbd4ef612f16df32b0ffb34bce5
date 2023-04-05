@@ -1,0 +1,12 @@
+
+ƒ
+java:S1104"PMake nome a static final constant or non-public and provide accessors if needed.(µ©Ñ¸8ç‡¼šõ0HÊRMINORZ
+CODE_SMELL
+ˆ
+java:S1104"VMake quantidade a static final constant or non-public and provide accessors if needed.(¤ýô:8ç‡¼šõ0HËRMINORZ
+CODE_SMELL
+…
+java:S1104"RMake genero a static final constant or non-public and provide accessors if needed.(ôøð‘8ç‡¼šõ0HÌRMINORZ
+CODE_SMELL
+…	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(á–Ì“H¿RMINORZ
+CODE_SMELL
